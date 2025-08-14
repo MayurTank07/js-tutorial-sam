@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // && op
+        var no1 = 10, no2 = 3, no3 = 5;
+
+        if((no1 > no2) && (no1 > no3))
+        {
+            document.writeln("no1 is greater");            
+        }
+        if((no2 > no1) && (no2 > no3))
+        {
+            document.writeln("no2 is greater");    
+        }
+        if((no3 > no1) && (no3 > no2))    
+        {
+            document.writeln("no3 is greater");    
+        }
+        if((no1 == no2) && (no1 == no3))
+        {
+            document.writeln("all are equal")
+        }
+
+
+
+
+        // or op
+        var username = "dexter";
+        var email = "dex@gmail.com";
+        var pass = "dex@6969";
+
+        if (((username != '') || (email != '')) && (pass.length > 0))
+        {
+            document.writeln("Authentication successfull");
+        }
+
+        // not op
+        document.writeln((10 > 5));   // true
+        document.writeln( !(10 > 5) );   // false
+
+    </script>
+</body>
+</html>

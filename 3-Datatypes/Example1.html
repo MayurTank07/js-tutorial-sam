@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        /*
+
+        datatypes -> used to specify which type of data we are going to store inside of variable
+
+        types of datatypes ->
+            1. primitive (original)
+            2. non primitive (banay jatey hai primitive valo se)
+
+        1. Primitive Data Types
+            These are immutable and stored directly in memory.
+
+        | Data Type     | Description                                   | Example                           |
+        | ------------- | --------------------------------------------- | --------------------------------- |
+        | **String**    | Text data enclosed in quotes.                 | `"Hello"`, `'World'`, `` `Hi` ``  |
+        | **Number**    | Numeric values (integer or floating-point).   | `42`, `3.14`                      |
+        | **Boolean**   | Logical value: `true` 1 or `false` 0.         | `true`, `false`                   |
+        | **Undefined** | A variable declared but not assigned a value. | `let x;`                          |
+        | **Null**      | Represents intentional empty value.           | `let y = null;`                   |
+        | **Symbol**    | Unique identifier for object properties.      | `Symbol('id')`                    |
+        | **BigInt**    | Large integers beyond `Number` limits.        | `123456789012345678901234567890n` |
+
+        2. Non-Primitive (Reference) Data Types
+            These store references to memory locations.
+
+        | Data Type    | Description                         | Example                      |
+        | ------------ | ----------------------------------- | ---------------------------- |
+        | **Object**   | Collection of key-value pairs.      | `{ name: "Navin", age: 23 }` |
+        | **Array**    | Ordered list of values.             | `[10, 20, 30]`               |
+        | **Function** | Block of code that can be executed. | `function greet(){}`         |
+        | **Date**     | Date and time object.               | `new Date()`                 |
+        | **RegExp**   | Regular expression object.          | `/abc/`                      |
+
+
+        Extra Notes
+        typeof operator helps to check the data type:
+
+            typeof "Hello";    // "string"
+            typeof 42;         // "number"
+            typeof true;       // "boolean"
+            typeof undefined;  // "undefined"
+            typeof null;       // "object"   // (quirk in JS)
+            typeof Symbol();   // "symbol"
+            typeof 10n;        // "bigint"
+            typeof {};         // "object"
+            typeof [];         // "object" (arrays are objects)
+            typeof function(){}; // "function"
+
+        */
+
+        var no;
+        document.writeln(no + "<br/>");   // undefined
+        document.writeln(typeof no + "<br/>");
+
+        var name ="dexter";
+        document.writeln(name  + "<br/>");  //dexter
+
+        // typeof is a keyword which is used to get datatype of a particular variable
+        document.writeln(typeof name  + "<br/>");  //string
+
+
+    </script>
+
+
+</body>
+</html>
