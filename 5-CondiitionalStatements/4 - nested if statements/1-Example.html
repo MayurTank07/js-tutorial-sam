@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        /*
+            nested if  statement -> creating if statement inside of another if statment
+
+            syntax -> 
+
+                if (condition)
+                {
+                    //code
+                    if(condition)
+                    {
+                        //code
+                    }
+                    else 
+                    {
+                        //code
+                    }
+                
+                }
+                else 
+                {
+                    //code
+                }
+
+        */
+
+        /*
+
+            water park -> height > 4 feet
+                       -> weight > 30kgs 
+
+
+        */
+
+        // var h = 4.8, w = 29;
+
+
+        // if (h > 4)
+        // {
+        //     if(w > 30)
+        //     {
+        //         document.writeln("you can ride");
+        //     }   
+        //     else
+        //     {
+        //         document.writeln("less weight");
+        //     }
+        // }
+        // else
+        // {
+        //     document.writeln("less height");
+        // }
+
+
+        var isAdmin = true;
+        var username = "dexter", password = "dextermorgan12";
+
+
+        if(isAdmin)
+        {
+            if((username == "dexter") &&  (password == "dextermorgan12"))
+             {
+                document.writeln("yes you are in admin dashboard");
+             }
+             else {
+                document.writeln("authentication failed");
+             }
+        }
+        else 
+        {
+            document.writeln("login is only for admins")
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
