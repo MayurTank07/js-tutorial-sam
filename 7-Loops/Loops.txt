@@ -1,0 +1,46 @@
+
+
+    WHAT IS LOOP ?
+    
+    --> EXECUTING A PART OF PROGRAM AGAIN AND AGAIN UNTILL THE CONDITION IS TRUE.
+
+
+    TYPES OF LOOPS IN JS --> 
+        1. WHILE LOOP 
+        2. FOR LOOP
+        3. FOR EACH LOOP
+        4. FOR IN LOOP
+
+    1. WHILE LOOP --> WHILE LOOP IS ALSO KNOWN AS PRE TESTED LOOP
+    // PRE TESTED LOOP MEANS --> FIRST CHECK THE CONDITION THEN EXECUTE THE PROGRAM
+
+    SYNTAX --> 
+
+        while( condtion )
+        {
+            //code
+            //code
+        }
+        
+    2. FOR LOOP --> FOR LOOP IS ALSO KNOWN AS PRE TESTED LOOP
+                --> USED TO CHECK CONDITION 
+                --> FOR LOOP WILL BE EXECUTE UNTIL CONDITION GETS FALSE
+
+    SYNTAX --> 
+
+        for ( initialization ; condition ; incr/decr )
+        {
+            //code
+            //code
+        }
+
+    3. FOR EACH LOOP --> USED TO ITERATE EACH ELEMENT OF AN ARRAY
+
+        forEach((value, index) => {
+            //code
+        });
+
+
+    4. FOR IN LOOP --> USED TO ITERATE EACH ELEMENT OF AN ARRAY
+
+
