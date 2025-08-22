@@ -38,5 +38,51 @@
             salary : 99999,
             loc : "Mumbai"
         };
-        
 
+    2.  using new Object()
+
+
+    SYNTAX -> 
+
+        let objName = new Object();
+        objName.prop1 = value;
+        objName.prop2 = value;
+                .
+                .
+        objName.prop3 = value;
+
+    // new is a keyword which is used to create an object
+    e.g. -> 
+
+        let person = new Object();
+        person.name = "dexter";
+        person.age = 24;
+        person.sal = 99999;
+
+        document.writeln(person.name);
+        document.writeln(person.age);
+        document.writeln(person.sal);
+
+
+    3. FUNCTION CONSTRUCTOR
+
+    function Person(name, age, sal)
+    {
+        this.name = name;
+        this.age = age;
+        this.sal = sal;
+    }
+
+    let p1 = new Person("dexter", 24, 99999);
+    let p2 = new Person("chlore", 21, 818181);
+
+    document.writeln(p1.name);
+    document.writeln(p1.age);
+    document.writeln(p1.sal);
+
+    document.writeln(p2.name);
+    document.writeln(p2.age);
+    document.writeln(p2.sal);
+
+    p1.name = "dexter morgan";
+    

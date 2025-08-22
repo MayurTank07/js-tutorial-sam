@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+    function Person(name, age, sal)
+    {
+        this.name = name;
+        this.age = age;
+        this.sal = sal;
+    }
+
+    let p1 = new Person("dexter", 24, 99999);
+    let p2 = new Person("chlore", 21, 818181);
+
+    document.writeln(p1.name);
+    document.writeln(p1.age);
+    document.writeln(p1.sal);
+
+    document.writeln(p2.name);
+    document.writeln(p2.age);
+    document.writeln(p2.sal);
+
+    p1.name = "dexter morgan";
+    document.writeln(p1.name);
+    </script>
+</body>
+</html>
